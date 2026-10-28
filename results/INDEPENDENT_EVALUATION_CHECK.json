@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "test_rows_per_model": 8734,
+  "model_and_baseline_count": 54,
+  "test_predictions_checked": 471636,
+  "permuted_predictions_checked": 4290000,
+  "independent_scalar_inference_spot_checks": 5720,
+  "importance_repeat_rows_checked": 2860,
+  "mean_importance_rows_checked": 572,
+  "rank_rows_checked": 52,
+  "source_target_joins_all_rows": true,
+  "baselines_all_rows": true,
+  "common_stratified_permutations": true,
+  "scope": "All exported error/importance/rank arithmetic; scalar inference sampled at2fixed evaluation keys per group/repeat/model; not every inference independently rerun"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "Fresh124fits,52frozen variants,all original/source/optimization/error/rank checks and prediction exports",
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "end_to_end_seconds": 120.97813629999291,
+  "runtime_and_gradient_diagnostics": "Retained and independently bounded, not compared as identical platform timings/residuals"
+}
