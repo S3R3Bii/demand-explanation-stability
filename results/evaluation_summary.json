@@ -1,0 +1,18 @@
+{
+  "status": "EXECUTED_AWAITING_INDEPENDENT_CHECKS",
+  "training_year": 2011,
+  "test_year": 2012,
+  "test_rows": 8734,
+  "evaluation_rows": 1500,
+  "model_count": 52,
+  "baseline_count": 2,
+  "permutation_prediction_rows": 4290000,
+  "training_target_variance": 17899.7949951981,
+  "importance_unit": "increase in count-squared MSE",
+  "structurally_unchanged_groups": [
+    "hour",
+    "month",
+    "workingday"
+  ],
+  "interpretation": "Retrospective model reliance with observed weather; conditional resampling sensitivity, not causal effects or deployment trials"
+}

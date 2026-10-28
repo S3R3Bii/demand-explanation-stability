@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "full_model_rows": 6,
+  "resampled_rank_rows": 48,
+  "temperature_importance_series": 12,
+  "numeric_bindings": "Independently reconciled to checked source CSV",
+  "visual_layout": "Separate rendered inspection required; this script checks values, not pixels"
+}

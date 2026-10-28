@@ -3,9 +3,24 @@
   "status": "PASS_EXACT_AST_EQUAL",
   "files": [
     {
+      "file": "src/check_reproduction.py",
+      "ast_equal": true,
+      "sha256": "63c1e87165d382335c096e6f8d3ec6823e8a3c5879eec7608859d378c25c0155"
+    },
+    {
+      "file": "src/evaluate.py",
+      "ast_equal": true,
+      "sha256": "0ad04cdbc51446b07ad5288a16aa727a4f4178c2f1840efe0a133b7cef8f311c"
+    },
+    {
       "file": "src/fetch.py",
       "ast_equal": true,
-      "sha256": "c1fcbb11caa7bb651e64d11091a6ea20e4349373b7f7a34115e96a130bfbb940"
+      "sha256": "ab992b636d3ccec531b481678d3f6eeb5754bce7cf696bdcc0b27ee6060f7c29"
+    },
+    {
+      "file": "src/figures.py",
+      "ast_equal": true,
+      "sha256": "be2494d3fce23fb6c928a715aab6ecff04bb6655ed5d607b808196837f00027b"
     },
     {
       "file": "src/fit_models.py",
@@ -18,6 +33,16 @@
       "sha256": "66a05bfca81d76fe9f8fa75a11d12853bab172ef6b2e36cbf4467dccd1efce35"
     },
     {
+      "file": "src/verify_evaluation.py",
+      "ast_equal": true,
+      "sha256": "09b8c33d537061b8fbfee3a585c5c51336ff368dbb783e9d7deccb9f86bece38"
+    },
+    {
+      "file": "src/verify_presentation.py",
+      "ast_equal": true,
+      "sha256": "a11415826e5b36f525cec5f9f95668be351f59a0e02f3ded457166bedd13b081"
+    },
+    {
       "file": "src/verify_sources.py",
       "ast_equal": true,
       "sha256": "4547cc41b62b9317e5a3545e20cafab7f531eafa8cb4cbc6b215bdc7c65d4324"
@@ -26,6 +51,11 @@
       "file": "src/verify_training.py",
       "ast_equal": true,
       "sha256": "7fbced600805810233cd0cef3d484b6dcd2edb979564fe26ae5f901b7d732ff3"
+    },
+    {
+      "file": "tests/test_contracts.py",
+      "ast_equal": true,
+      "sha256": "e8d2aa9e0e4b9d5830173fb0e8b1c76d5309974515086155d85fa71cfbacdf96"
     }
   ]
 }

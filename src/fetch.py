@@ -17,11 +17,36 @@ URL = "https://archive.ics.uci.edu/static/public/275/bike%2Bsharing%2Bdataset.zi
 
 def main():
     path = ROOT / "data/raw/bike-sharing.zip"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    (ROOT / "results").mkdir(exist_ok=True)
+    manifest_path = ROOT / "data/manifest.json"
+    expected_manifest = (
+        json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest_path.exists()
+        else None
+    )
     raw = urllib.request.urlopen(URL, timeout=90).read()
-    path.write_bytes(raw)
     with zipfile.ZipFile(io.BytesIO(raw)) as archive:
         member = next(name for name in archive.namelist() if name.endswith("hour.csv"))
         content = archive.read(member)
+    if expected_manifest is not None:
+        assert (
+            hashlib.sha256(raw).hexdigest() == expected_manifest["zip_sha256"]
+        ), "Published archive snapshot changed"
+        assert (
+            hashlib.sha256(content).hexdigest() == expected_manifest["member_sha256"]
+        ), "Published hourly source changed"
+        assert (
+            hashlib.sha256((ROOT / expected_manifest["panel"]).read_bytes()).hexdigest()
+            == expected_manifest["panel_sha256"]
+        )
+        path.write_bytes(raw)
+        print(
+            "Verified pinned archive/member/panel hashes; retained original retrieval metadata",
+            flush=True,
+        )
+        return
+    path.write_bytes(raw)
     frame = pd.read_csv(io.BytesIO(content), float_precision="round_trip")
     frame["timestamp"] = pd.to_datetime(frame.dteday) + pd.to_timedelta(
         frame.hr, unit="h"
