@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-28T22:44:54.153902+00:00",
+  "status": "PASS_SCOPED_GITHUB_EDITION",
+  "grade": 4,
+  "pages": 6,
+  "criteria": {
+    "correctness": "PASS: all numerical tokens match the reviewed source and all referenced figure bytes match",
+    "rendered_layout": "PASS: all current pages inspected in rendered review sheets; no clipped text, overlap or missing figures observed",
+    "privacy": "PASS: source and extracted PDF text scanned; no attachments or JavaScript; only explicit reviewed files included",
+    "scope": "PASS: independent study only; not peer reviewed; formal-publication projects excluded"
+  },
+  "base_analysis_commit": "3cda3716748ccb1edff37362e66f7182a5d881a3",
+  "public_files_sha256": {
+    "paper/main.tex": "ebc20d556dbc86ceefe7df11c4bcfcc34bf3761708ecb6f60b043a2f34073000",
+    "paper/manuscript.pdf": "de6000caea4cfea279118cb3c84125100f6be3f556f886db40f9426c379461ff",
+    "paper/images/decision-summary.pdf": "72aae10706285d6df9d6770e6ad96aa10b8b93db46cee02506ed2b2aee077cd0",
+    "paper/images/ranking-sensitivity.pdf": "058915223fbcd41d13dacb2d15a7f623d340fcc99d987dc85dc266560556978f",
+    "paper/images/temperature-grouping.pdf": "48fe2113f688423045184ff467165f158b066989199a045535f7376b9794fc50"
+  },
+  "limitations": "This is a publication-format check. It reuses unchanged scientific evidence and does not establish peer review, novelty, deployment or universal secret detection."
+}

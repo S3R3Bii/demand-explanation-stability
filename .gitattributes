@@ -4,3 +4,6 @@ results/** -text whitespace=cr-at-eol
 *.md text eol=lf
 *.sql text eol=lf
 *.yml text eol=lf
+
+# Keep reviewed manuscript and manifest bytes identical across platforms.
+paper/** -text whitespace=cr-at-eol

@@ -1,18 +1,18 @@
 {
-  "timestamp_utc": "2026-10-28T22:19:43.651736+00:00",
+  "timestamp_utc": "2026-10-28T22:49:09.553014+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 227,
+  "files_checked": 235,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
-    ".gitattributes": "d1b79420c70b70a87f099fd3cd222cc20ad5137760869c54b28cfbd389aa66e1",
+    ".gitattributes": "e35dfdaa8313ae6acc0bca660ec767ea1997c135cbd284b55c99232440096792",
     ".github/workflows/verify.yml": "c13115e5e53524883858464dcf55d3c17cfad191659faeb4ea67368d494fbd12",
-    ".gitignore": "64981e3fc99b209c17dc8b8d6a6ed8dcb7bf3b692a4d982cff4d39664c40d964",
+    ".gitignore": "c38d414403306bc91f256d0257cf31e8921e72f163c60b3c18db12d2327400da",
     "CODE_STYLE_CHECK.json": "a32f461f93feb7dd735cf9bdc22ee75a0f8be4feeef025a7d2a1bc5fdac9d464",
     "LICENSE": "379bb05737033d3c2e9dd1456688d94a3c60654960f510fd173fb9d9e59f3f25",
-    "MODEL_VALIDATION_STANDARD.md": "23f24302cefcf1ddf374c03236ce5ffc85943fdaece43f58826ddfe5b0edf8a4",
+    "MODEL_VALIDATION_STANDARD.md": "40f9cab5117e572ed4727620e8952269c40e3118c117d6c0ea438aead3195c01",
     "PROTOCOL.md": "92d636a326ccdd0a771efff9b69c8cea44aeb2a27a24231542c3f8e106196d01",
-    "README.md": "ed1060340c631e2ea2a1085b1c9506f1bf0e98f01fd7c8076d8dc787965c0aab",
+    "README.md": "bf63f9ec0127b195883c85e3df8f3aeb48145aabe2e097c09fb624841e177239",
     "SOURCES.md": "b06d6f94d297ca227f05df1890d3a9629479b5e1e5413843b9207c73c9059f2f",
     "data/hour.csv.gz": "5a80d32a6096a2922e5a87d19b2ce2e7309dbc16df9cc20c1da99bbfb1bb8d96",
     "data/manifest.json": "adecdcb27c61fcb15a9f042b8add957e45d9c48c0756a8bba9f8e0ed81dc1f92",
@@ -22,6 +22,14 @@
     "figures/ranking-sensitivity.png": "e5f2e7f6fa6db1ebeb023ee18e900124fe422f8912d2acb6619a5e8de7623c4c",
     "figures/temperature-grouping.pdf": "48fe2113f688423045184ff467165f158b066989199a045535f7376b9794fc50",
     "figures/temperature-grouping.png": "023602f3fab629b63d8c78078a6c59efa7041180414f45e28d91b0d6c4fc76be",
+    "paper/PUBLICATION_SCOPE.json": "5c8c1042c1680326ca695ce83427d870472e6541e6aeb3e233bc482b045726c2",
+    "paper/README.md": "f6d1434988c3b1ad045fd2a160abfd2eafb8fcdb2b0b2e6784ed4210265509b1",
+    "paper/REVIEW.json": "e8e12ebed4de5984a0b502085fdf09ae4dd7415559bd0511b3ca9b5c5e7bacbe",
+    "paper/images/decision-summary.pdf": "72aae10706285d6df9d6770e6ad96aa10b8b93db46cee02506ed2b2aee077cd0",
+    "paper/images/ranking-sensitivity.pdf": "058915223fbcd41d13dacb2d15a7f623d340fcc99d987dc85dc266560556978f",
+    "paper/images/temperature-grouping.pdf": "48fe2113f688423045184ff467165f158b066989199a045535f7376b9794fc50",
+    "paper/main.tex": "ebc20d556dbc86ceefe7df11c4bcfcc34bf3761708ecb6f60b043a2f34073000",
+    "paper/manuscript.pdf": "de6000caea4cfea279118cb3c84125100f6be3f556f886db40f9426c379461ff",
     "requirements.txt": "69302ae1856143acefb0750b9a2d1202a19b329cd6845dd4f5d1d5b49e4617b6",
     "results/INDEPENDENT_EVALUATION_CHECK.json": "68db8ffd4a5f05cff5364c2393b93c045bfcc65795004908907aab2d825bb843",
     "results/INDEPENDENT_PRESENTATION_CHECK.json": "ca810f7d11a277693dfd0ce7142aeee7f8ffa7493694b0a4709b250aa97eabfb",
@@ -233,5 +241,12 @@
     "tests/test_contracts.py": "e8d2aa9e0e4b9d5830173fb0e8b1c76d5309974515086155d85fa71cfbacdf96"
   },
   "raw_source_members_excluded": true,
-  "manuscripts_excluded": true
+  "unapproved_manuscripts_excluded": true,
+  "approved_independent_paper_files": [
+    "paper/images/decision-summary.pdf",
+    "paper/images/ranking-sensitivity.pdf",
+    "paper/images/temperature-grouping.pdf",
+    "paper/main.tex",
+    "paper/manuscript.pdf"
+  ]
 }

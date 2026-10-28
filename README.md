@@ -1,5 +1,7 @@
 # A stable driver shortlist can still produce an unstable business claim
 
+[Research manuscript: PDF and LaTeX](paper/README.md)
+
 The boosted model reduced observed-weather test MSE by **30.4%** against an hour-by-workday mean, but its highest-ranked weather variable changed in **7 of 12** training-week resamples. Additive splines kept the same top-three set in every resample while changing the weather leader in **6 of 12**, and predicted worse than the simple baseline.
 
 For an operations report, show predictive error and first-place frequency together. Grouping temperature with feels-like temperature resolved one ranking ambiguity in three of four model families here. These are historical model-reliance results under a specified shuffle. They do not estimate causal weather effects or establish a next-day forecast.
@@ -64,4 +66,4 @@ python src/check_reproduction.py
 
 The replay refits every declared model in a temporary workspace, regenerates prediction and explanation exports, independently checks results and compares new numerical outputs with the recorded study. Figure input hashes are checked within each replay; harmless platform-dependent serialization is not substituted for numerical comparison.
 
-This is an independent, AI-assisted research example. Manuscript drafts and source papers remain private. No paid compute, model service, fabricated activity or business-impact claim is part of the study.
+This is an independent, AI-assisted research example. The independent research manuscript is available in [PDF and LaTeX](paper/README.md); source papers remain private. No paid compute, model service, fabricated activity or business-impact claim is part of the study.
