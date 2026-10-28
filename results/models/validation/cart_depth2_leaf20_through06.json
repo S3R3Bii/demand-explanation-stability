@@ -1,0 +1,83 @@
+{
+  "candidate": {
+    "id": "cart_depth2_leaf20",
+    "family": "cart",
+    "depth": 2,
+    "leaf": 20
+  },
+  "transform": {
+    "family": "cart",
+    "calendar_round_decimals": 12,
+    "splines": {}
+  },
+  "training_rows": 4250,
+  "training_last_timestamp": "2011-06-30 23:00:00",
+  "training_row_identity_sha256": "9eb9c46a0af1a180ab6edb78b6aa5f73fae6ba71c3f6974a71d336614b794bf5",
+  "warnings": [],
+  "baseline": 0.0,
+  "actual_nodes": 7,
+  "actual_depth": 2,
+  "trees": [
+    {
+      "leaf": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "feature": [
+        20,
+        1,
+        -2,
+        -2,
+        0,
+        -2,
+        -2
+      ],
+      "threshold": [
+        0.6136500239372253,
+        0.129409521818161,
+        -2.0,
+        -2.0,
+        -0.9159756004810333,
+        -2.0,
+        -2.0
+      ],
+      "left": [
+        1,
+        2,
+        -1,
+        -1,
+        5,
+        -1,
+        -1
+      ],
+      "right": [
+        4,
+        3,
+        -1,
+        -1,
+        6,
+        -1,
+        -1
+      ],
+      "value": [
+        123.4475294117647,
+        93.20104895104895,
+        134.08277027027026,
+        49.356884057971016,
+        250.34963325183375,
+        429.8471337579618,
+        207.71558245083207
+      ]
+    }
+  ],
+  "fit_seconds": 0.012625099974684417,
+  "training_inference_max_difference": 0.0,
+  "identity": "cart_depth2_leaf20_through06",
+  "stage": "validation",
+  "fit_end_month": 6
+}

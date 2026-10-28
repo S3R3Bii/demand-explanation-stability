@@ -1,0 +1,349 @@
+{
+  "status": "PASS",
+  "all_models_checked": 124,
+  "ridge_certificates": [
+    {
+      "model": "additive_full",
+      "objective": 8088.864369993037,
+      "max_gradient": 9.6174856524162e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week00",
+      "objective": 7242.820115025361,
+      "max_gradient": 2.8066438062523957e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week01",
+      "objective": 7837.068688817618,
+      "max_gradient": 3.3344160765835795e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week02",
+      "objective": 8447.039089858785,
+      "max_gradient": 7.904787935331115e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week03",
+      "objective": 8682.614077005697,
+      "max_gradient": 2.460254222569347e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week04",
+      "objective": 7859.013904041123,
+      "max_gradient": 7.274181257344026e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week05",
+      "objective": 8010.974753049137,
+      "max_gradient": 6.270539643082884e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week06",
+      "objective": 8469.144944099602,
+      "max_gradient": 4.707345624410664e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week07",
+      "objective": 8640.212761470892,
+      "max_gradient": 1.687538997430238e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week08",
+      "objective": 8347.829386358178,
+      "max_gradient": 6.856737400084967e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week09",
+      "objective": 7511.197201440314,
+      "max_gradient": 3.553557298391323e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week10",
+      "objective": 8070.086917986716,
+      "max_gradient": 1.4104273304837989e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_week11",
+      "objective": 8559.341729971396,
+      "max_gradient": 3.375077994860476e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_full",
+      "objective": 7733.184842697429,
+      "max_gradient": 1.0274003869881199e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week00",
+      "objective": 7052.823579319552,
+      "max_gradient": 1.4704903961160198e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week01",
+      "objective": 7429.046432334203,
+      "max_gradient": 3.5110803153770576e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week02",
+      "objective": 8046.057139713526,
+      "max_gradient": 7.736034035588091e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week03",
+      "objective": 8339.734064080101,
+      "max_gradient": 3.5016434196677437e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week04",
+      "objective": 7602.9729111704555,
+      "max_gradient": 6.823430709346212e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week05",
+      "objective": 7709.457692308043,
+      "max_gradient": 7.349676423018536e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week06",
+      "objective": 8116.4116555823975,
+      "max_gradient": 8.131273432354647e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week07",
+      "objective": 8312.407078264872,
+      "max_gradient": 1.809219440929155e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week08",
+      "objective": 7935.900665695585,
+      "max_gradient": 7.364109322338663e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week09",
+      "objective": 7194.263616465203,
+      "max_gradient": 4.227729277772596e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week10",
+      "objective": 7763.766576898968,
+      "max_gradient": 1.4075407506197735e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_week11",
+      "objective": 8039.8412920946885,
+      "max_gradient": 6.044054146059352e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.0001_through06",
+      "objective": 5701.553610275801,
+      "max_gradient": 8.680759118065265e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.0001_through08",
+      "objective": 6659.473216128809,
+      "max_gradient": 3.2218005846881847e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.0001_through10",
+      "objective": 7366.875564965776,
+      "max_gradient": 3.2688842431637094e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.001_through06",
+      "objective": 5723.926745771063,
+      "max_gradient": 2.0076560544753994e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.001_through08",
+      "objective": 6684.150547511504,
+      "max_gradient": 1.3823078344265959e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.001_through10",
+      "objective": 7391.56822853303,
+      "max_gradient": 9.019451852054772e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.01_through06",
+      "objective": 5796.644899060709,
+      "max_gradient": 1.3516763133606326e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.01_through08",
+      "objective": 6771.170245363108,
+      "max_gradient": 7.225331444260519e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.01_through10",
+      "objective": 7480.3744446643595,
+      "max_gradient": 8.766321002440236e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.1_through06",
+      "objective": 6281.8260315959615,
+      "max_gradient": 8.431283383876743e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.1_through08",
+      "objective": 7400.197383448689,
+      "max_gradient": 6.394884621840902e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda0.1_through10",
+      "objective": 8119.447733483026,
+      "max_gradient": 7.833733661755105e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda1_through06",
+      "objective": 8613.986334801584,
+      "max_gradient": 1.0901765242177884e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda1_through08",
+      "objective": 10300.756214263332,
+      "max_gradient": 4.1322931490978837e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "additive_lambda1_through10",
+      "objective": 11179.810728892939,
+      "max_gradient": 4.405364961712621e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.0001_through06",
+      "objective": 6112.133116067902,
+      "max_gradient": 9.751354756350766e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.0001_through08",
+      "objective": 7119.480816433164,
+      "max_gradient": 1.6455449909048042e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.0001_through10",
+      "objective": 7740.210757587361,
+      "max_gradient": 9.386987714909978e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.001_through06",
+      "objective": 6117.792016771571,
+      "max_gradient": 9.475664174875848e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.001_through08",
+      "objective": 7128.270683295539,
+      "max_gradient": 1.5702088440739953e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.001_through10",
+      "objective": 7747.5826814438,
+      "max_gradient": 9.189871086334733e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.01_through06",
+      "objective": 6172.347214615804,
+      "max_gradient": 9.26119729924454e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.01_through08",
+      "objective": 7202.925445212578,
+      "max_gradient": 1.2630558025964239e-12,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.01_through10",
+      "objective": 7819.69129925335,
+      "max_gradient": 9.001688283660769e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.1_through06",
+      "objective": 6660.335594800827,
+      "max_gradient": 9.55002874166787e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.1_through08",
+      "objective": 7814.011314189163,
+      "max_gradient": 6.354349555028806e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda0.1_through10",
+      "objective": 8463.591242643737,
+      "max_gradient": 7.72715225139109e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda1_through06",
+      "objective": 9404.839552856598,
+      "max_gradient": 9.211810399446062e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda1_through08",
+      "objective": 11105.41469968881,
+      "max_gradient": 5.043078618460664e-13,
+      "positive_definite_penalized_feature_hessian": true
+    },
+    {
+      "model": "linear_lambda1_through10",
+      "objective": 11958.796433520685,
+      "max_gradient": 6.252776074688882e-13,
+      "positive_definite_penalized_feature_hessian": true
+    }
+  ],
+  "max_gradient": 3.2688842431637094e-12,
+  "validation_predictions_checked": 105480,
+  "candidate_losses_checked": 24,
+  "whole_week_multiplicities_checked": true,
+  "training_only_transform_checks": true,
+  "frozen_model_hashes": 54,
+  "scope": "Independent CSV/calendar/quantile/scaler/objective/gradient/Hessian/selection audit; no fitting helper imports or 2012 labels"
+}

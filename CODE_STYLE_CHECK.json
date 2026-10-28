@@ -1,0 +1,31 @@
+{
+  "formatter": "Black25.1.0",
+  "status": "PASS_EXACT_AST_EQUAL",
+  "files": [
+    {
+      "file": "src/fetch.py",
+      "ast_equal": true,
+      "sha256": "c1fcbb11caa7bb651e64d11091a6ea20e4349373b7f7a34115e96a130bfbb940"
+    },
+    {
+      "file": "src/fit_models.py",
+      "ast_equal": true,
+      "sha256": "c74fedfbf833f7d90f088ab34823ef7933243feed3b9fe3b5feeebae1ad98f03"
+    },
+    {
+      "file": "src/modeling.py",
+      "ast_equal": true,
+      "sha256": "66a05bfca81d76fe9f8fa75a11d12853bab172ef6b2e36cbf4467dccd1efce35"
+    },
+    {
+      "file": "src/verify_sources.py",
+      "ast_equal": true,
+      "sha256": "4547cc41b62b9317e5a3545e20cafab7f531eafa8cb4cbc6b215bdc7c65d4324"
+    },
+    {
+      "file": "src/verify_training.py",
+      "ast_equal": true,
+      "sha256": "7fbced600805810233cd0cef3d484b6dcd2edb979564fe26ae5f901b7d732ff3"
+    }
+  ]
+}

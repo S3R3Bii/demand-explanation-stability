@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_INDEPENDENT_PRETEST_TRAINING_CHECK",
+  "finding": "Default pandas decimal parsing differed by a binary ulp from standard-library float at a spline boundary; independent basis reconstruction produced NaN",
+  "correction": "Use round_trip source decimal parser and regenerate all declared fits/validation results before any2012inference",
+  "test_evaluated": false,
+  "no_tolerance_or_grid_change": true
+}
