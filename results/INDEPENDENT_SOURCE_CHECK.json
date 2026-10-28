@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "all_source_values_exact": true,
+  "source_rows": 17379,
+  "sql_year_count_total_and_weeks": [
+    [
+      2011,
+      8645,
+      1243103,
+      53
+    ],
+    [
+      2012,
+      8734,
+      2049576,
+      54
+    ]
+  ],
+  "forward_folds": [
+    {
+      "fit_end_month": 6,
+      "fit_rows": 4250,
+      "validation_rows": 1475
+    },
+    {
+      "fit_end_month": 8,
+      "fit_rows": 5725,
+      "validation_rows": 1460
+    },
+    {
+      "fit_end_month": 10,
+      "fit_rows": 7185,
+      "validation_rows": 1460
+    }
+  ],
+  "missing_hours_retained": 165,
+  "landing_page_mismatch": "17389 listed versus17379 actual hourly CSV rows; no invented repair",
+  "target_component_identity_all_rows": true
+}

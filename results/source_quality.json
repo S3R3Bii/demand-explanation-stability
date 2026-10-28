@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_READY_FOR_INDEPENDENT_CHECK",
+  "rows": 17379,
+  "date_min": "2011-01-01 00:00:00",
+  "date_max": "2012-12-31 23:00:00",
+  "year_rows": {
+    "2011": 8645,
+    "2012": 8734
+  },
+  "duplicate_timestamp_keys": 0,
+  "target_component_identity": true,
+  "missing_hours": 165,
+  "official_metadata_mismatch_retained": true
+}
