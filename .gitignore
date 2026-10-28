@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+.env*
+.venv/
+data/raw/
+private/
+*.tex
+*.aux
+*.out

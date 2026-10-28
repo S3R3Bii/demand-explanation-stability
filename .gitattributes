@@ -1,0 +1,6 @@
+data/** -text whitespace=cr-at-eol
+results/** -text whitespace=cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
